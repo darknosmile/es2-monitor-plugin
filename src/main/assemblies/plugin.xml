@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<assembly>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>/</outputDirectory>
+            <useProjectArtifact>true</useProjectArtifact>
+            <useTransitiveDependencies>true</useTransitiveDependencies>
+        </dependencySet>
+    </dependencySets>
+    <files>
+        <file>
+            <source>src/main/resources/plugin-descriptor.properties</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+    </files>
+</assembly>
